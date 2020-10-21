@@ -106,7 +106,7 @@ namespace webAPI.Controllers
                     cmd.CommandType = CommandType.Text;
                     da.Fill(table);
                 }
-                return "Deleted";
+                return "Deleted Successfully";
             }
             catch (Exception)
             {
